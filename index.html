@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Caio Tardim | Neurologista no Rio de Janeiro</title>
+    <meta name="description" content="Neurologista especializado em diagnóstico e tratamento de doenças neurológicas. Neuroimunologia, cefaleia, Parkinson, Alzheimer e mais. Rio de Janeiro - RJ." />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[]; w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KK4H6Z5G');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Open Sans"', 'sans-serif'],
+              heading: ['"Montserrat"', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#2856A8', // Azul Institucional
+                dark: '#1B3A72',    // Azul Escuro
+                light: '#F0F6FF',   // Fundo Claro
+              },
+              secondary: '#4FA4D6', // Ciano/Acento
+              whatsapp: '#25D366',
+            },
+            backgroundImage: {
+              'hero-gradient': 'linear-gradient(to bottom right, #FFFFFF, #F0F6FF)',
+            },
+            boxShadow: {
+              'soft': '0 10px 40px -10px rgba(40, 86, 168, 0.1)',
+            }
+          }
+        }
+      }
+    </script>
+  
+  </head>
+  <body class="font-sans text-gray-700 antialiased bg-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KK4H6Z5G" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <!-- Inicialização da aplicação React via Vite -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

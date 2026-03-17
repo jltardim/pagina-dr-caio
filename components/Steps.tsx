@@ -32,7 +32,7 @@ const Steps: React.FC = () => {
                         >
                             {/* Number */}
                             <div className="flex-shrink-0">
-                                <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center shadow-lg shadow-blue-200">
+                                <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center shadow-lg shadow-slate-200">
                                     <span className="text-white font-heading font-bold text-xl">{step.number}</span>
                                 </div>
                                 {index < STEPS_LIST.length - 1 && (

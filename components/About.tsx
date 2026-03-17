@@ -28,7 +28,7 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="absolute top-10 right-10 lg:right-0 w-[110%] h-[95%] bg-gradient-to-br from-blue-100 to-blue-50 rounded-[4rem] transform rotate-3 -z-10"></div>
+            <div className="absolute top-10 right-10 lg:right-0 w-[110%] h-[95%] bg-gradient-to-br from-slate-200 to-slate-100 rounded-[4rem] transform rotate-3 -z-10"></div>
             <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-secondary/10 rounded-full blur-2xl -z-10"></div>
 
             <div className="relative w-full max-w-xl">
@@ -48,7 +48,7 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="inline-block text-secondary font-bold uppercase tracking-widest text-sm mb-3 bg-blue-50 px-3 py-1 rounded-lg">Quem cuidará de você</span>
+            <span className="inline-block text-secondary font-bold uppercase tracking-widest text-sm mb-3 bg-slate-100 px-3 py-1 rounded-lg">Quem cuidará de você</span>
             <h2 className="font-heading text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
               Dr. Caio Tardim
             </h2>

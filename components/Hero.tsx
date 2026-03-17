@@ -19,13 +19,13 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <section id="home" className="relative pt-32 pb-0 lg:pt-40 lg:pb-0 bg-gradient-to-br from-white via-blue-50 to-white overflow-hidden min-h-[90vh] flex flex-col justify-end">
+    <section id="home" className="relative pt-32 pb-0 lg:pt-40 lg:pb-0 bg-gradient-to-br from-white via-slate-50 to-white overflow-hidden min-h-[90vh] flex flex-col justify-end">
 
       {/* Background Organic Elements (Fluidez) */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-3xl opacity-70 animate-pulse"></div>
-        <div className="absolute top-[20%] left-[-10%] w-[500px] h-[500px] bg-cyan-50/60 rounded-full blur-3xl opacity-60"></div>
-        <div className="absolute bottom-0 right-[20%] w-[800px] h-[600px] bg-gradient-to-t from-blue-100/80 to-transparent rounded-t-full blur-2xl opacity-50"></div>
+        <div className="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-slate-200/50 rounded-full blur-3xl opacity-70 animate-pulse"></div>
+        <div className="absolute top-[20%] left-[-10%] w-[500px] h-[500px] bg-slate-100/60 rounded-full blur-3xl opacity-60"></div>
+        <div className="absolute bottom-0 right-[20%] w-[800px] h-[600px] bg-gradient-to-t from-slate-200/80 to-transparent rounded-t-full blur-2xl opacity-50"></div>
       </div>
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10 h-full flex flex-col lg:flex-row items-center">
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="inline-block px-6 py-2 rounded-full bg-white shadow-sm text-primary font-bold tracking-wide mb-6 border border-blue-100 text-sm uppercase"
+            className="inline-block px-6 py-2 rounded-full bg-white shadow-sm text-primary font-bold tracking-wide mb-6 border border-slate-200 text-sm uppercase"
           >
             NEUROLOGIA CLÍNICA
           </motion.span>
@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
         >
-          <div className="relative z-10 w-full max-w-[650px] lg:-mr-12">
+          <div className="relative z-10 w-full max-w-[800px] lg:-mr-12">
             {/* Main Photo */}
             <ImageWithFallback
               src={HERO_IMG_SRC}

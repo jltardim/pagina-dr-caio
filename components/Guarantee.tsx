@@ -19,7 +19,7 @@ const Guarantee: React.FC = () => {
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">Você está a um passo do seu tratamento!</h2>
         <p className="font-heading text-xl md:text-2xl text-secondary font-semibold mb-6">Alguns sintomas neurológicos não devem esperar</p>
 
-        <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg md:text-xl text-slate-200 max-w-3xl mx-auto mb-10 leading-relaxed">
           Se você apresenta sintomas como dores de cabeça frequentes, formigamentos, tremores, alterações de memória, entre outros, agende agora uma consulta para esclarecer o seu quadro e receber orientação sobre a melhor conduta.
         </p>
 
